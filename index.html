@@ -20,7 +20,7 @@
 
     </header>
     <!--Aqui ficara as interações onde o cliente podera passar as imagens com um visual bem agradavel-->
-    <section>
+    <section class="container">
         <div class="list">
             <div class="item active">
                 <div class="car-img">
@@ -79,8 +79,9 @@
         </div>
         <!--Aqui estou adicionando as duas setas onde o usuário podera passar as imagens para apresentacao-->
         <div class="arrows">
-            <button><img src="https://cdn-icons-png.flaticon.com/512/860/860790.png" alt="seta esquerda"></button>
-            <button><img src="https://cdn-icons-png.flaticon.com/512/154/154697.png" alt="seta direita"></button>
+            <!--criando id`s para meus botoes para acessar pelo js-->
+            <button id="prev"><img src="https://cdn-icons-png.flaticon.com/512/860/860790.png" alt="seta esquerda"></button>
+            <button id="next"><img src="https://cdn-icons-png.flaticon.com/512/154/154697.png" alt="seta direita"></button>
         </div>
 
         <div class="indicators">
@@ -92,5 +93,7 @@
             </ul>
         </div>
     </section>
+    <!--linkando o meu script ao html-->
+    <script src="script.js"></script>
 </body>
 </html>
